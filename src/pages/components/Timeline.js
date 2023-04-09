@@ -1,8 +1,8 @@
-export default function Timeline() {
+export default function Career() {
   return (
     <div className="-z-30 mt-8">
       <div>
-        <h3 className="text-3xl text-left pl-8">About</h3>
+        <h3 className="text-3xl text-left pl-8">Career</h3>
       </div>
       <div className="ml-10 max-h-screen mb-20 mt-8">
         <ol className="relative border-l border-gray-200 dark:border-gray-700">

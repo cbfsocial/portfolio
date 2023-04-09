@@ -10,7 +10,7 @@ export default function NavBar() {
       <p className="text-4xl">Projects</p>
       <p className="text-4xl">Technologies</p>
       <p className="text-4xl">About me</p>
-      <div className="flex justify-around w-screen mb-4">
+      <div className="flex justify-around w-screen mb-4 fixed bottom-5">
         <a href="https://github.com/cbfsocial" target="_blank" className="">
           <GitHubIcon />
         </a>
