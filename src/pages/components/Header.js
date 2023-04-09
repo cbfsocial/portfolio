@@ -1,7 +1,5 @@
 import GitHubIcon from "../icons/GitHubIcon";
-import LogoIcon from "../icons/LogoIcon";
 import LinkedInLogo from "../icons/LinkedInLogo";
-import HeadHunterLogo from "../icons/HeadHunterLogo";
 import NavBarIcon from "../icons/NavBarIcon";
 import CloseIcon from "../icons/CloseIcon";
 import NavBar from "./NavBar";
@@ -43,13 +41,6 @@ export default function Header() {
           className=""
         >
           <LinkedInLogo />
-        </a>
-        <a
-          href="https://hh.ru/resume/cc33ff8dff0324d1840039ed1f313939626759"
-          target="_blank"
-          className=""
-        >
-          <HeadHunterLogo />
         </a>
       </div>
     </div>

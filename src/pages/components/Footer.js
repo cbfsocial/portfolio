@@ -1,12 +1,11 @@
 import GitHubIcon from "../icons/GitHubIcon";
 import LinkedInLogo from "../icons/LinkedInLogo";
-import HeadHunterLogo from "../icons/HeadHunterLogo";
 
 export default function Footer() {
   return (
-    <div className="flex justify-between ml-4 pt-4">
+    <div className="flex justify-between ml-4 px-4 pb-4">
       <div className="flex flex-col">
-        <p>email:</p>
+        <p>Email:</p>
         <email>guardian1324918@gmail.com</email>
       </div>
       <a href="https://github.com/cbfsocial" target="_blank" className="">
@@ -19,11 +18,6 @@ export default function Footer() {
       >
         <LinkedInLogo />
       </a>
-      <a
-        href="https://hh.ru/resume/cc33ff8dff0324d1840039ed1f313939626759"
-        target="_blank"
-        className=""
-      ></a>
     </div>
   );
 }
