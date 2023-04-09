@@ -7,6 +7,7 @@ import { useState } from "react";
 
 export default function Header() {
   const [openNavOpen, SetOpenNavOpen] = useState(false);
+
   return (
     <div
       className="

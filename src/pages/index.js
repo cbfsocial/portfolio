@@ -6,13 +6,13 @@ import Career from "./components/Timeline";
 import Footer from "./components/Footer";
 export default function Home() {
   return (
-    <>
-      <Header />
+    <div className="overflow-hidden">
+      {/* <Header /> */}
       <Main />
       <Projects />
       <Stack />
       <Career />
       <Footer />
-    </>
+    </div>
   );
 }
