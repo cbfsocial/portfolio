@@ -14,7 +14,6 @@ export default function Header() {
       className="
     lg:flex
     lg:justify-between
-    lg:sticky
     lg:top-0
     lg:pt-8
     lg:px-4
@@ -23,14 +22,10 @@ export default function Header() {
     "
     >
       <span
-        className="lg:hidden w-12 h-12 fixed right-8 top-8 cursor-pointer"
+        className="lg:hidden w-12 h-12 fixed right-8 top-8 cursor-pointer z-50"
         onClick={() => SetOpenNavOpen((prev) => !prev)}
       >
-        {openNavOpen ? (
-          <CloseIcon fill="black" stroke="yellow" />
-        ) : (
-          <NavBarIcon />
-        )}
+        {openNavOpen ? <CloseIcon fill="black" /> : <NavBarIcon />}
       </span>
       {openNavOpen && <NavBar />}
       <div className="max-lg:hidden lg:flex lg:justify-between lg:w-3/4 lg:pl-16">
