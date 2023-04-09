@@ -4,10 +4,10 @@ import HeadHunterLogo from "../icons/HeadHunterLogo";
 
 export default function Footer() {
   return (
-    <div className="flex justify-between ml-4">
+    <div className="flex justify-between ml-4 mt-8">
       <div className="flex flex-col">
         <p>email:</p>
-        <p>guardian1324918@gmail.com</p>
+        <email>guardian1324918@gmail.com</email>
       </div>
       <a href="https://github.com/cbfsocial" target="_blank" className="">
         <GitHubIcon />

@@ -2,7 +2,7 @@ import ProjectBox from "./UI/ProjectBox";
 
 export default function Projects() {
   return (
-    <div className="h-screen pt-10 flex flex-col items-center gap-8">
+    <div className=" pt-10 flex flex-col items-center gap-8">
       <h1 className="text-3xl w-screen text-left pl-8">Projects</h1>
       <ProjectBox
         title="GymApp"

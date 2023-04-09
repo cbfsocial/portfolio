@@ -2,7 +2,7 @@ import SkillIndicator from "./UI/SkillIndicator";
 
 export default function Stack() {
   return (
-    <div className="h-screen mt-14 ">
+    <div className="mt-14 ">
       <h3 className="text-3xl pl-8 ">Technologies Stack</h3>
       <div className="flex flex-col gap-6">
         <SkillIndicator skillName={"HTML"} skillLevel={"Advanced"} />
