@@ -4,7 +4,7 @@ import TelegramLogo from "../icons/TelegramLogo";
 
 export default function Footer() {
   return (
-    <div className="flex justify-between ml-4 px-4 pb-4">
+    <div className="flex justify-between ml-4 p-4 ">
       <div className="flex flex-col">
         <p>Email:</p>
         <a href="mailto:me@cbfscl.ru">me@cbfscl.ru</a>
