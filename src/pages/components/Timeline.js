@@ -1,10 +1,12 @@
+import Footer from "./Footer";
+
 export default function Career() {
   return (
     <div className="-z-30 mt-8">
       <div>
         <h3 className="text-3xl text-left pl-8">Career</h3>
       </div>
-      <div className="ml-10 max-h-screen mb-20 mt-8">
+      <div className="ml-10 mb-4 mt-8">
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
           <li className="mb-10 ml-6 pr-4">
             <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"></span>
@@ -47,11 +49,11 @@ export default function Career() {
             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
               Network engineer
             </h3>
-            <time className="block mb-2  font-normal leading-none text-gray-400 dark:text-gray-500">
+            <time className="block mb-2 leading-none text-gray-400 dark:text-gray-500">
               BFT LLC.
               <p>May 2019 — December 2020</p>
             </time>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400">
               Configuring and optimizing network infrastructure using
               Linux-based solutions. My responsibilities include managing and
               maintaining Linux servers, configuring network devices, ensuring
